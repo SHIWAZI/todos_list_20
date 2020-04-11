@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9ca3b774e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+ <header class="text-center text-light my-4">
+     <h1 class="mb-4">Todo List</h1>
+     <form class="search"action="">
+         <input class="form-control m-auto"type="text" name="search" placeholder="search todos">
+     </form>
+</header>
+<ul class="list-group todos mx-auto text-light">
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    <span>AWS Certification</span>
+    <i class="fas fa-trash-alt delete"></i> 
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    <span>CCNA Certification</span>
+    <i class="fas fa-trash-alt delete"></i> 
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    <span>6-Month Cyber Security Program</span>
+    <i class="fas fa-trash-alt delete"></i> 
+</li>
+</ul>
+<form action="" class="add text-center my-4">
+    <label  class="text-light">Add a new todo</label>
+    <input type="text" class="from-control m-auto"name="add">
+</form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
